@@ -1,0 +1,60 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 255, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+  li {
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+h1 {
+    color: aquamarine;
+}
+p {
+    font-weight: bold;
+    font-size: large;
+    border: 2px sol; 
+  }
+  p {
+    border: 10px solid black;
+    margin: 20px;p 
+      font-weight: bold;
+      background-color: #333;
+      color: #fff;
+      padding: .5em;
+  }
+  img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+  }
